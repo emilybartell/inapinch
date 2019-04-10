@@ -1,11 +1,7 @@
-body {
-  
-
-}
-
+/* Container styling */
 .container-fluid {
   background-color: #D5C7BC;
-  padding: 2em;
+  padding: 3em;
   margin-bottom: .5em;
 }
 
@@ -13,13 +9,13 @@ body {
   text-align: center;
 }
 
-.container-fluid div[class*='col'] {
-  padding: 3em;
-  text-align: left;
+.container-fluid h4 {
+  padding: 1.5em 0em .5em;
 }
 
+/* Contact form styling */
 #contact-form {
-  padding: 2em 1.5em;
+  padding: 2em .5em;
   width: 100%;
   max-width: 800px;
   margin: auto;
@@ -30,12 +26,3 @@ body {
   color: grey;
   margin-top: 1em;
 }
-
-#contact-email {
-  display: block;
-  width: 60%;
-  float: left;
-  margin-bottom: 5px;
-}
-
-#contact-date, #contact-
