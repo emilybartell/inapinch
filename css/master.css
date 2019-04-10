@@ -1,19 +1,43 @@
 body {
   margin: 1em;
+
 }
 
 .container-fluid {
   background-color: #D5C7BC;
   padding: 1.5em;
+  margin-bottom: .5em;
 }
 
-.container-fluid h3 {
+.container-fluid h1,h3 {
   text-align: center;
 }
 
 .container div[class*='col'] {
+  display: flex;
   padding: 3rem;
-  margin-top: 2em;
   height: 500px;
   text-align: left;
+  margin: auto;
 }
+
+
+#contact-form {
+  width: 60%;
+  margin: auto;
+}
+
+#contact-form fieldset {
+  font-size: 1em;
+  color: grey;
+  margin-top: 1em;
+}
+
+#contact-email {
+  display: block;
+  width: 60%;
+  float: left;
+  margin-bottom: 5px;
+}
+
+#contact-date, #contact-
