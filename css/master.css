@@ -1,0 +1,19 @@
+body {
+  margin: 1em;
+}
+
+.container-fluid {
+  background-color: #D5C7BC;
+  padding: 1.5em;
+}
+
+.container-fluid h3 {
+  text-align: center;
+}
+
+.container div[class*='col'] {
+  padding: 3rem;
+  margin-top: 2em;
+  height: 500px;
+  text-align: left;
+}
