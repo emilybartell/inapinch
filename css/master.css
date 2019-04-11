@@ -28,6 +28,19 @@ nav.navbar.navbar-expand-lg {
   width: 200px;
 }
 
+.center-pills {
+  display: inline-block;
+}
+
+.center-pills {
+    display: flex;
+    justify-content: center;
+}
+
+.card-deck {
+  display:inline-block;}
+}
+
 /* Container styling */
 .container-fluid {
   background-color: white;
@@ -62,6 +75,7 @@ nav.navbar.navbar-expand-lg {
   background-color: grey;
 }
 
+<<<<<<< HEAD
 /*Styling for gallery and carousel*/
 
 #photo-margin{
@@ -70,10 +84,23 @@ nav.navbar.navbar-expand-lg {
 }
 
 .gallery-image{
+=======
+/* Carausel and Gallery Img Styling*/
+
+img{
+>>>>>>> c9501111107dfd4a62a315ae0756e81832651dc2
   margin-top: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
   float: left;
+<<<<<<< HEAD
   border-radius: 20px;
 
+=======
+}
+
+.carousel-inner > .item > img {
+  width:100%;
+  height:300px;
+>>>>>>> c9501111107dfd4a62a315ae0756e81832651dc2
 }
