@@ -1,8 +1,27 @@
+/* Test font */
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+/* Page Header styling */
+
+header {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  margin-bottom: 0px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+#logo {
+  align: center;
+  height: 200px;
+  width: 200px;
+}
+
 /* Container styling */
 .container-fluid {
-  background-color: #D5C7BC;
+  background-color: white;
   padding: 3em;
-  margin-bottom: .5em;
 }
 
 .container-fluid h1,h3 {
@@ -25,4 +44,10 @@
   font-size: 1em;
   color: grey;
   margin-top: 1em;
+}
+
+#map {
+  width:100%;
+  height: 400px;
+  background-color: grey;
 }
