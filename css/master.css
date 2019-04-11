@@ -28,6 +28,19 @@ nav.navbar.navbar-expand-lg {
   width: 200px;
 }
 
+.center-pills {
+  display: inline-block;
+}
+
+.center-pills {
+    display: flex;
+    justify-content: center;
+}
+
+.card-deck {
+  display:inline-block;}
+}
+
 /* Container styling */
 .container-fluid {
   background-color: white;
