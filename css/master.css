@@ -61,3 +61,19 @@ nav.navbar.navbar-expand-lg {
   height: 400px;
   background-color: grey;
 }
+
+/*Styling for gallery and carousel*/
+
+#photo-margin{
+  max-width: 1300px;
+  margin:auto;
+}
+
+.gallery-image{
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+  border-radius: 20px;
+
+}
