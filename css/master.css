@@ -61,3 +61,17 @@ nav.navbar.navbar-expand-lg {
   height: 400px;
   background-color: grey;
 }
+
+/* Carausel and Gallery Img Styling*/
+
+img{
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.carousel-inner > .item > img {
+  width:100%;
+  height:300px;
+}
