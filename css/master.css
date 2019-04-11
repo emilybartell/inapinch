@@ -56,15 +56,15 @@ nav.navbar.navbar-expand-lg {
 }
 
 /* Outer Background Menu Styling*/
-.background-container {
+.menu-background-container {
   padding: 15px 30px;
   margin: 10px;
   background-color: #DB8A74;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 /* Inner Background Menu Styling*/
-.inner-container {
+.menu-inner-container {
   color: #444054;
   padding: 15px 15px;
   background-color: #FAC9B8;
@@ -80,6 +80,11 @@ hr {
 /* Unordered and Ordered Lists Menu Styling*/
 ul, ol {
   margin-top: 0px;
+}
+
+/* List Items Menu Styling*/
+.menu-background-container li {
+  color: #A06555;
 }
 
 /* Food and Cost Menu Styling*/
