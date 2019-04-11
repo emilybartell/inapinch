@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  color: #2F243A;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 22px;
+  color: #2F243A;
+  text-decoration: underline;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  color: #2F243A;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+body {
+  font-size: 18px;
+  color: #444054
+}
+
+hr {
+  background-color: #2F243A;
+  height: 1px;
+}
+
+/* Outer Background Styling*/
+.background-container {
+  padding: 15px 30px;
+  margin: 10px;
+  background-color: #DB8A74;
+  border-radius: 10px;
+}
+
+/* Inner Background Styling*/
+.container {
+  color: #444054;
+  padding: 15px 15px;
+  background-color: #FAC9B8;
+  border-radius: 20px;
+}
+
+.footer {
+  text-align: center;
+}
+
+ul, ol {
+  margin-top: 0px;
+}
+
+li {
+  color: #A06555;
+}
+
+.food-cost span {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.right {
+  float: right;
+  color: #686666;
+}
+
+.left {
+  float: left;
+}
