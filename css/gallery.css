@@ -27,6 +27,7 @@ header{
 }
 
 #header{
+  padding-top: 20px;
   height: 250px;
   background-color: rgb(224, 214, 222);
   font-family: 'Pacifico', cursive;
