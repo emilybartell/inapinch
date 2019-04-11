@@ -56,7 +56,7 @@ nav.navbar.navbar-expand-lg {
 }
 
 /* Outer Background Menu Styling*/
-.menu-background-container {
+.menu-container {
   padding: 15px 30px;
   margin: 10px;
   background-color: #DB8A74;
@@ -72,18 +72,18 @@ nav.navbar.navbar-expand-lg {
 }
 
 /* Horizontal Line Divider Menu Styling*/
-hr {
+.menu-container hr {
   background-color: #2F243A;
   height: 1px;
 }
 
 /* Unordered and Ordered Lists Menu Styling*/
-ul, ol {
+.menu-container ul, ol {
   margin-top: 0px;
 }
 
 /* List Items Menu Styling*/
-.menu-background-container li {
+.menu-container li {
   color: #A06555;
 }
 
