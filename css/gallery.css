@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+  background: linear-gradient(to right, rgb(147, 206, 224), rgb(97, 193, 222));
+}
+
+#page-wrap{
+  max-width: 1290px;
+  margin: auto;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 70px;
+}
+
+p{
+  font-family: sans-serif;
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+header{
+  text-align: center;
+}
+
+#header{
+  height: 250px;
+  background-color: rgb(224, 214, 222);
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+  /* height: 200px;
+  width: 100%;
+  background-color: rgb(171, 172, 168);
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black; */
+}
+
+img{
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
 .carousel-inner > .item > img {
   width:100%;
   height:300px;
