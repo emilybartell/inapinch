@@ -55,6 +55,53 @@ nav.navbar.navbar-expand-lg {
   padding: 1.5em 0em .5em;
 }
 
+/* Outer Background Menu Styling*/
+.background-container {
+  padding: 15px 30px;
+  margin: 10px;
+  background-color: #DB8A74;
+  border-radius: 10px;
+}
+
+/* Inner Background Menu Styling*/
+.inner-container {
+  color: #444054;
+  padding: 15px 15px;
+  background-color: #FAC9B8;
+  border-radius: 20px;
+}
+
+/* Horizontal Line Divider Menu Styling*/
+hr {
+  background-color: #2F243A;
+  height: 1px;
+}
+
+/* Unordered and Ordered Lists Menu Styling*/
+ul, ol {
+  margin-top: 0px;
+}
+
+/* Food and Cost Menu Styling*/
+.food-cost span {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.right {
+  float: right;
+  color: #686666;
+}
+
+.left {
+  float: left;
+}
+
+/* Footer Menu Styling*/
+.menu-footer {
+  text-align: center;
+}
+
 /* Contact form styling */
 #contact-form {
   padding: 2em .5em;
