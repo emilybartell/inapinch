@@ -25,6 +25,14 @@ h3 {
   text-align: left;
 }
 
+h4 {
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+  color: #2F243A;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
 /* Body Text Menu Styling*/
 .menu-container body {
   font-size: 18px;
@@ -83,6 +91,12 @@ nav.navbar.navbar-expand-lg {
 
 .container-fluid h4 {
   padding: 1.5em 0em .5em;
+}
+
+/* Button About Styling*/
+.btn.btn-primary {
+  background-color: #DB8A74;
+  border: #DB8A74;
 }
 
 /* Outer Background Menu Styling*/
