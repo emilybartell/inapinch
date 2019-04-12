@@ -57,14 +57,16 @@
             <h3>Send Request</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-            <form id="contact-form" class="form-group" action="index.html" method="post">
+            <form class="needs-validation" novalidate>
 
               <div class="form-row">
 
                   <div class="form-group col-12">
                     <label id="name-label" for="name">Name</label>
-                    <input id="name" type="text" name="first" class="form-control">
-
+                    <input id="name" type="text" name="first" class="form-control" required>
+                    <div class="invalid-feedback">
+                      Name required
+                    </div>
                 </div>
 
 
@@ -77,16 +79,20 @@
 
                   <div class="form-group col-12 col-md-6">
                     <label id="phone-label" for="phone">Phone</label>
-                    <input id="phone" type="phone" name="phone" class="form-control">
-
+                    <input id="phone" type="phone" name="phone" class="form-control" required>
+                    <div class="invalid-feedback">
+                      Phone required
+                    </div>
                 </div>
 
 
 
                   <div class="form-group col-12 col-md-6">
                     <label id="date-label "for="date">Event Date</label>
-                    <input id="date" type="date" name="date" class="form-control">
-
+                    <input id="date" type="date" name="date" class="form-control" required>
+                    <div class="invalid-feedback">
+                      Event Date required
+                    </div>
                 </div>
 
 
@@ -101,15 +107,15 @@
                     <label id="desc-label" for="desc">Brief description of event and services needed.</label>
                     <textarea id="desc" name="message" rows="8" cols="80" class="form-control"></textarea>
                   </div>
+                </div>
 
 
 
-                  <div class="form-group col">
-                    <button id="submit" type="submit" name="button" class="form-control">Submit</button>
-                  </div>
+                    <button class="btn btn-primary" type="submit">Submit</button>
 
 
-              </div>
+
+
             </form>
 
         </div>
@@ -130,6 +136,7 @@
 
   <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
   <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/master.js" type="text/javascript"></script>
 
   </body>
 </html>

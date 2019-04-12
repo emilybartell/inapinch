@@ -1,5 +1,9 @@
 /* Test font */
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto:300,400');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 h1 {
   font-family: 'Pacifico', cursive;
@@ -19,7 +23,7 @@ h2 {
 
 
 h3 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   color: #2F243A;
   margin-bottom: .8em;
@@ -48,7 +52,11 @@ h4 {
 
 /* Page Header styling */
 
+
+
 header {
+  /* background-image: url("../img/632532-PO9GJG-427.jpg");
+  background-size: cover; */
   font-family: 'Pacifico', cursive;
   text-align: center;
   margin-bottom: 0px;
