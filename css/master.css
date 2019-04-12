@@ -1,13 +1,69 @@
 /* Test font */
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto:300,400');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
+  color: #2F243A;
+  margin-bottom: .5em;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size:2em;
+  color: #2F243A;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  color: #2F243A;
+  margin-bottom: .8em;
+  text-align: left;
+}
+
+h4 {
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+  color: #2F243A;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+/* Body Text Menu Styling*/
+.menu-container body {
+  font-size: 18px;
+  color: #444054
+}
+
+.menu-container h2 {
+  text-decoration: underline;
+  text-align: left;
+  margin-bottom: 0px;
+}
 
 /* Page Header styling */
 
+
+
 header {
+<<<<<<< HEAD
   position: fixed;
   top:0;
   z-index: 9999;
   width: 100%;
+=======
+  /* background-image: url("../img/632532-PO9GJG-427.jpg");
+  background-size: cover; */
+>>>>>>> 4c4b576e9eee4a3f11566ad7e1b9049e72dc7284
   font-family: 'Pacifico', cursive;
   text-align: center;
   transition:all 0.4s ease-in-out;
@@ -17,6 +73,10 @@ header {
   -webkit-box-shadow: 0 8px 6px -6px black;
 	   -moz-box-shadow: 0 8px 6px -6px black;
 	        box-shadow: 0 8px 6px -6px black;
+}
+
+header h1 {
+  font-size: 3em;
 }
 
 #page-header {
@@ -62,16 +122,22 @@ nav.navbar.navbar-expand-lg {
   padding: 1.5em 0em .5em;
 }
 
-/* Outer Background Menu Styling*/
-.background-container {
-  padding: 15px 30px;
-  margin: 10px;
+/* Button About Styling*/
+.btn.btn-primary {
   background-color: #DB8A74;
-  border-radius: 10px;
+  border: #DB8A74;
+}
+
+/* Outer Background Menu Styling*/
+.menu-container {
+  padding: 15px 30px;
+  margin: 40px;
+  background-color: #DB8A74;
+  border-radius: 20px;
 }
 
 /* Inner Background Menu Styling*/
-.inner-container {
+.menu-inner-container {
   color: #444054;
   padding: 15px 15px;
   background-color: #FAC9B8;
@@ -79,14 +145,19 @@ nav.navbar.navbar-expand-lg {
 }
 
 /* Horizontal Line Divider Menu Styling*/
-hr {
+.menu-container hr {
   background-color: #2F243A;
   height: 1px;
 }
 
 /* Unordered and Ordered Lists Menu Styling*/
-ul, ol {
+.menu-container ul, ol {
   margin-top: 0px;
+}
+
+/* List Items Menu Styling*/
+.menu-container li {
+  color: #A06555;
 }
 
 /* Food and Cost Menu Styling*/
