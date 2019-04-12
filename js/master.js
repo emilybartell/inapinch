@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 30190e80a0bfe46145f3b3f5f7da81159d64b118
 $(document).on("scroll", function() {
   console.log( $(document).scrollTop() );
   if ( $(document).scrollTop() > 100){
@@ -14,6 +17,7 @@ $(document).on("scroll", function() {
   }
 
 });
+<<<<<<< HEAD
 
 //contact form validation
 (function() {
@@ -33,3 +37,5 @@ $(document).on("scroll", function() {
     });
   }, false);
 })();
+=======
+>>>>>>> 30190e80a0bfe46145f3b3f5f7da81159d64b118
