@@ -55,15 +55,12 @@ h4 {
 
 
 header {
-<<<<<<< HEAD
   position: fixed;
   top:0;
   z-index: 9999;
   width: 100%;
-=======
   /* background-image: url("../img/632532-PO9GJG-427.jpg");
   background-size: cover; */
->>>>>>> 4c4b576e9eee4a3f11566ad7e1b9049e72dc7284
   font-family: 'Pacifico', cursive;
   text-align: center;
   transition:all 0.4s ease-in-out;
