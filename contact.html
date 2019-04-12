@@ -71,14 +71,16 @@
 
 
                   <div class="form-group col-12 col-md-6">
-                    <label id="email-label "for="email">Email</label>
-                    <input id="email" type="email" name="email" class="form-control">
-
+                    <label id="email-label "for="email">Email Address</label>
+                    <input id="email" type="email" name="email" class="form-control" required>
+                    <div class="invalid-feedback">
+                      Email Address required
+                    </div>
                 </div>
 
 
                   <div class="form-group col-12 col-md-6">
-                    <label id="phone-label" for="phone">Phone</label>
+                    <label id="phone-label" for="phone">Phone Number</label>
                     <input id="phone" type="phone" name="phone" class="form-control" required>
                     <div class="invalid-feedback">
                       Phone required
@@ -98,15 +100,23 @@
 
                   <div class="form-group col-12 col-md-6">
                     <label id="size-label "for="size">Event Size</label>
-                    <input id="size" type="number" name="size" class="form-control">
-
+                    <input id="size" type="number" name="size" class="form-control" required>
+                    <small for="size" class="form-text text-muted">Estimated number of people attending</small>
+                    <div class="invalid-feedback">
+                      Event Size required
+                    </div>
                 </div>
 
 
                   <div class="form-group col-12">
-                    <label id="desc-label" for="desc">Brief description of event and services needed.</label>
-                    <textarea id="desc" name="message" rows="8" cols="80" class="form-control"></textarea>
+                    <label id="desc-label" for="desc">Event Description</label>
+                    <textarea id="desc" name="message" rows="8" cols="80" class="form-control" required></textarea>
+                    <div class="invalid-feedback">
+                      Event Description required
+                    </div>
+                    <small for="desc" class="form-text text-muted">Brief description of event type, location and preferred food.</small>
                   </div>
+
                 </div>
 
 
