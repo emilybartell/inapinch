@@ -3,25 +3,26 @@
 
 h1 {
   font-family: 'Pacifico', cursive;
-  font-size: 30px;
+  font-size: 3em;
   color: #2F243A;
-  margin-bottom: 20px;
+  margin-bottom: .5em;
   text-align: center;
 }
 
 h2 {
   font-family: 'Pacifico', cursive;
-  font-size: 22px;
+  font-size:2em;
   color: #2F243A;
-  text-decoration: underline;
-  margin-bottom: 0px;
+  margin-bottom: 1.5em;
+  text-align: center;
 }
+
 
 h3 {
   font-family: 'Pacifico', cursive;
-  font-size: 20px;
+  font-size: 1.5em;
   color: #2F243A;
-  margin-bottom: 0px;
+  margin-bottom: .8em;
   text-align: left;
 }
 
@@ -39,6 +40,12 @@ h4 {
   color: #444054
 }
 
+.menu-container h2 {
+  text-decoration: underline;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
 /* Page Header styling */
 
 header {
@@ -48,6 +55,10 @@ header {
   -webkit-box-shadow: 0 8px 6px -6px black;
 	   -moz-box-shadow: 0 8px 6px -6px black;
 	        box-shadow: 0 8px 6px -6px black;
+}
+
+header h1 {
+  font-size: 3em;
 }
 
 #page-header {
