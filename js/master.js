@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 $(document).on("scroll", function() {
   console.log( $(document).scrollTop() );
   if ( $(document).scrollTop() > 100){
@@ -14,7 +14,7 @@ $(document).on("scroll", function() {
   }
 
 });
-=======
+
 //contact form validation
 (function() {
   'use strict';
@@ -33,4 +33,3 @@ $(document).on("scroll", function() {
     });
   }, false);
 })();
->>>>>>> 4c4b576e9eee4a3f11566ad7e1b9049e72dc7284
