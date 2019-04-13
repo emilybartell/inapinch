@@ -102,7 +102,8 @@ nav.navbar.navbar-expand-lg {
 }
 
 .card-deck {
-  display:inline-block;}
+  padding-top: 500px;
+  display:inline-block;
 }
 
 /* Container styling */
@@ -156,6 +157,10 @@ nav.navbar.navbar-expand-lg {
 .menu-container li {
   color: #A06555;
 }
+
+/*card styling*/
+
+.card
 
 /* Food and Cost Menu Styling*/
 .food-cost span {

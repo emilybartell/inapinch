@@ -1,6 +1,5 @@
 //Hillary's header shrink magic
 $(document).on("scroll", function() {
-  console.log( $(document).scrollTop() );
   if ( $(document).scrollTop() > 100){
     $("header").addClass("shrink");
     $("#title").hide();
