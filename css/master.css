@@ -76,15 +76,11 @@ header {
 	        box-shadow: 0 8px 6px -6px black;
 }
 
-
 header h1 {
-  font-size: 35px;
-  font-weight: bold;
+  font-size: 3em;
 }
 
 #page-header {
-  background-image: url(https://source.unsplash.com/xXaLfz6V9rQ);
-  opacity: ;
   padding-bottom: 1em;
 }
 
@@ -99,6 +95,7 @@ nav.navbar.navbar-expand-lg {
   height: 200px;
   width: 200px;
 }
+
 
 .center-pills {
   display: inline-block;
