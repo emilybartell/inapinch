@@ -4,6 +4,7 @@ $(document).on("scroll", function() {
     $("header").addClass("shrink");
     $("#title").hide();
     $("#logo").hide();
+    $("header").removeClass("#page-header");
   }
 
   if( $(document).scrollTop() < 100){
