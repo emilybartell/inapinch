@@ -68,7 +68,7 @@ h4 {
 /* Page Header styling */
 
 .page-header{
-  background-image: url("https://source.unsplash.com/xXaLfz6V9rQ");
+  background-image: url("../img/weddingtablescropped.png");
 }
 
 header {
@@ -76,7 +76,6 @@ header {
   top:0;
   z-index: 9999;
   width: 100%;
-  background-image: url("../img/weddingtablescropped.png");
   background-size: no-repeat;
   background-position: 50% 80%;
   font-family: 'Pacifico', cursive;
