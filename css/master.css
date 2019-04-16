@@ -145,6 +145,10 @@ nav.navbar.navbar-expand-lg {
   border: #DB8A74;
 }
 
+.btn.btn-primary:hover {
+  color: #2F243A;
+}
+
 /* Outer Background Menu Styling*/
 .menu-container {
   padding: 15px 30px;
