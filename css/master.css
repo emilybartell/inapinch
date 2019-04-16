@@ -69,7 +69,7 @@ h4 {
 <<<<<<< HEAD
 =======
 .page-header{
-  background-image: url("https://source.unsplash.com/xXaLfz6V9rQ");
+  background-image: url("../img/weddingtablescropped.png");
 }
 
 >>>>>>> 13e5fbff222a3c127aaca472054a508fb7095edc
@@ -78,7 +78,6 @@ header {
   top:0;
   z-index: 9999;
   width: 100%;
-  background-image: url("../img/weddingtablescropped.png");
   background-size: no-repeat;
   background-position: 50% 80%;
   font-family: 'Pacifico', cursive;
