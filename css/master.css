@@ -42,16 +42,27 @@ h4 {
   text-align: left;
 }
 
-/* Body Text Menu Styling*/
+/*Text Menu Styling*/
 .menu-container body {
   font-size: 18px;
   color: #444054
 }
 
 .menu-container h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 22px;
+  color: #2F243A;
   text-decoration: underline;
   text-align: left;
   margin-bottom: 0px;
+}
+
+.menu-container h3 {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  color: #2F243A;
+  margin-bottom: 0px;
+  text-align: left;
 }
 
 /* Page Header styling */
@@ -135,6 +146,10 @@ nav.navbar.navbar-expand-lg {
 .btn.btn-primary {
   background-color: #DB8A74;
   border: #DB8A74;
+}
+
+.btn.btn-primary:hover {
+  color: #2F243A;
 }
 
 /* Outer Background Menu Styling*/
