@@ -66,13 +66,21 @@ h4 {
 
 /* Page Header styling */
 
+<<<<<<< HEAD
+=======
+.page-header{
+  background-image: url("https://source.unsplash.com/xXaLfz6V9rQ");
+}
+
+>>>>>>> 13e5fbff222a3c127aaca472054a508fb7095edc
 header {
   position: fixed;
   top:0;
   z-index: 9999;
   width: 100%;
-  /* background-image: url("../img/632532-PO9GJG-427.jpg");
-  background-size: cover; */
+  background-image: url("../img/weddingtablescropped.png");
+  background-size: no-repeat;
+  background-position: 50% 80%;
   font-family: 'Pacifico', cursive;
   text-align: center;
   transition:all 0.4s ease-in-out;
@@ -89,13 +97,19 @@ header h1 {
 }
 
 #page-header {
+  color: white;
   padding-bottom: 1em;
+
 }
 
 nav.navbar.navbar-expand-lg {
   padding-top: 2em;
   font-family: sans-serif;
   font-size: 1.5em;
+}
+
+.nav-link {
+  color: white;
 }
 
 #logo {
@@ -247,6 +261,7 @@ nav.navbar.navbar-expand-lg {
 
 
 .shrink {
+  background-color:#DB8A74;
   text-align: center;
   height:125px;
   padding:20px 0;
