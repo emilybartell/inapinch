@@ -5,16 +5,13 @@ $(document).on("scroll", function() {
     $("#title").hide();
     $("#logo").hide();
     $("header").removeClass("page-header");
-    console.log( $("page-header") );
-    //$("header").removeAttr("page-header");
-
   }
 
   if( $(document).scrollTop() < 100){
     $("header").removeClass("shrink");
     $("#title").show();
     $("#logo").show();
-    $("header").addClass("page-header");  
+    $("header").addClass("page-header");
   }
 
 });
