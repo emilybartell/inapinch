@@ -67,15 +67,18 @@ h4 {
 
 /* Page Header styling */
 
-
+.page-header{
+  background-image: url("https://source.unsplash.com/xXaLfz6V9rQ");
+}
 
 header {
   position: fixed;
   top:0;
   z-index: 9999;
   width: 100%;
-  /* background-image: url("../img/632532-PO9GJG-427.jpg");
-  background-size: cover; */
+  /* background-image: url("https://source.unsplash.com/xXaLfz6V9rQ"); */
+  /* background-image: url("../img/632532-PO9GJG-427.jpg"); */
+  /* background-size: cover; */ */
   font-family: 'Pacifico', cursive;
   text-align: center;
   transition:all 0.4s ease-in-out;
@@ -255,6 +258,7 @@ nav.navbar.navbar-expand-lg {
 
 
 .shrink {
+  background-color:#DB8A74; 
   text-align: center;
   height:125px;
   padding:20px 0;
