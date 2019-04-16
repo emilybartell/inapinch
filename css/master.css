@@ -81,7 +81,12 @@ header h1 {
 }
 
 #page-header {
+  color: white;
   padding-bottom: 1em;
+  background-image: url("../img/weddingtablescropped.png");
+  background-size: cover;
+  background-position: bottom;
+
 }
 
 nav.navbar.navbar-expand-lg {
