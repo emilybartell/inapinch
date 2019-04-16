@@ -96,6 +96,9 @@ nav.navbar.navbar-expand-lg {
   width: 200px;
 }
 
+.container-marketing {
+  padding-top: 500px;
+}
 
 .center-pills {
   display: inline-block;
