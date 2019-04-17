@@ -25,7 +25,6 @@ h2 {
   text-align: center;
 }
 
-
 h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
@@ -42,29 +41,45 @@ h4 {
   text-align: left;
 }
 
-/* Body Text Menu Styling*/
+/*Text Menu Styling*/
 .menu-container body {
   font-size: 18px;
   color: #444054
 }
 
 .menu-container h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 22px;
+  color: #2F243A;
   text-decoration: underline;
   text-align: left;
   margin-bottom: 0px;
 }
 
+.menu-container h3 {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  color: #2F243A;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
 /* Page Header styling */
 
+<<<<<<< HEAD
+=======
+.page-header{
+  background-image: url("../img/weddingtablescropped.png");
+}
 
-
+>>>>>>> 13e5fbff222a3c127aaca472054a508fb7095edc
 header {
   position: fixed;
   top:0;
   z-index: 9999;
   width: 100%;
-  /* background-image: url("../img/632532-PO9GJG-427.jpg");
-  background-size: cover; */
+  background-size: no-repeat;
+  background-position: 50% 80%;
   font-family: 'Pacifico', cursive;
   text-align: center;
   transition:all 0.4s ease-in-out;
@@ -76,16 +91,14 @@ header {
 	        box-shadow: 0 8px 6px -6px black;
 }
 
-
 header h1 {
-  font-size: 35px;
-  font-weight: bold;
+  font-size: 3em;
 }
 
 #page-header {
-  background-image: url(https://source.unsplash.com/xXaLfz6V9rQ);
-  opacity: ;
+  color: white;
   padding-bottom: 1em;
+
 }
 
 nav.navbar.navbar-expand-lg {
@@ -94,10 +107,18 @@ nav.navbar.navbar-expand-lg {
   font-size: 1.5em;
 }
 
+.nav-link {
+  color: white;
+}
+
 #logo {
   align: center;
   height: 200px;
   width: 200px;
+}
+
+.container-marketing {
+  padding-top: 500px;
 }
 
 .center-pills {
@@ -128,10 +149,14 @@ nav.navbar.navbar-expand-lg {
   padding: 1.5em 0em .5em;
 }
 
-/* Button About Styling*/
+/* Button Styling*/
 .btn.btn-primary {
   background-color: #DB8A74;
   border: #DB8A74;
+}
+
+.btn.btn-primary:hover {
+  color: #2F243A;
 }
 
 /* Outer Background Menu Styling*/
@@ -235,6 +260,7 @@ nav.navbar.navbar-expand-lg {
 
 
 .shrink {
+  background-color:#DB8A74;
   text-align: center;
   height:125px;
   padding:20px 0;
