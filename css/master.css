@@ -59,7 +59,8 @@ h4 {
 /*Text Menu Styling*/
 .menu-container body {
   font-size: 18px;
-  color: #444054
+  color: #444054;
+  font-family: 'Roboto', sans-serif;
 }
 
 .menu-container h2 {
@@ -174,7 +175,7 @@ nav.navbar.navbar-expand-lg {
 .menu-container {
   padding: 15px 30px;
   margin: 40px;
-  background-color: #DB8A74;
+  background-color: #A06555;
   border-radius: 20px;
 }
 
