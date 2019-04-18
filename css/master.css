@@ -12,7 +12,8 @@ body {
 h1 {
   font-family: 'Pacifico', cursive;
   font-size: 3em;
-  color: #2F243A;
+  color: rgb(74, 59, 78);
+  text-shadow: 2px 2px rgb(118, 122, 122);
   margin-bottom: .5em;
   text-align: center;
 }
@@ -85,6 +86,7 @@ header {
   -webkit-box-shadow: 0 8px 6px -6px black;
 	   -moz-box-shadow: 0 8px 6px -6px black;
 	        box-shadow: 0 8px 6px -6px black;
+
 }
 
 header h1 {
@@ -261,6 +263,4 @@ nav.navbar.navbar-expand-lg {
   height:125px;
   padding:20px 0;
   font-size: 15px;
-
-
 }
