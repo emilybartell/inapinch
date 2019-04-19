@@ -5,7 +5,23 @@ html, body {
   height: 100%;
 }
 
-.nav-link, a {
+.navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #FAC9B8;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-item .nav-link-active {
+  color: #FAC9B8;
+  focus: none;
+  text-decoration: none;
+  border: none;
+}
+
+/* .nav-link, a {
 	text-transform: none;
 	color: black;
 	transition: background-color .2s, color .2s;
@@ -19,7 +35,7 @@ html, body {
 .nav-link-active, a {
 	color: black;
   text-decoration: none;
-}
+} */
 
 body {
   font-family: 'Roboto', sans-serif;
