@@ -5,9 +5,9 @@ html, body {
   height: 100%;
 }
 
-.nav-link a {
+.nav-link, a {
 	text-transform: none;
-	color: #FAC9B8;
+	color: black;
 	transition: background-color .2s, color .2s;
 
 	&:hover {
@@ -16,8 +16,9 @@ html, body {
 	}
 }
 
-.nav-link-active a {
-	color: #FAC9B8;
+.nav-link-active, a {
+	color: black;
+  text-decoration: none;
 }
 
 body {

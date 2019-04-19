@@ -22,7 +22,6 @@ $(document).ready( function() {
     handleScroll();
   });
 
-
   //contact form validation
   (function() {
     'use strict';
