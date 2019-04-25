@@ -299,18 +299,9 @@ nav.navbar.navbar-expand-lg {
 }
 
 
-.body {
-  background-color: #333333;
-}
+.circle-image{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
 
-.carousel-content {
-    color:black;
-    display:flex;
-    align-items:center;
-}
-
-#text-carousel {
-  width: 100%;
-  height: auto;
-  padding: 50px;
 }
