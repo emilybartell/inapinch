@@ -3,14 +3,14 @@ $(document).ready( function() {
   function handleScroll(){
     if ( $(document).scrollTop() > 100){
       $("header").addClass("shrink");
-      $("#title").hide();
+      $("#pinchYatTitle").hide();
       $("#logo").hide();
       $("header").removeClass("page-header");
     }
 
     if( $(document).scrollTop() < 100){
       $("header").removeClass("shrink");
-      $("#title").show();
+      $("#pinchYatTitle").show();
       $("#logo").show();
       $("header").addClass("page-header");
     }

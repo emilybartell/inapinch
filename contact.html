@@ -5,7 +5,15 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-          <title>In-A-Pinch: Contact Us</title>
+          <title>In a Pinch! | Contact Us</title>
+
+          <!-- FAVICON -->
+          <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+          <!-- FONTS -->
+          <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto" rel="stylesheet">
 
     <link rel="stylesheet"
           href="css/bootstrap.min.css">
@@ -15,18 +23,44 @@
 
     <link rel="stylesheet"
           href="css/master.css">
+
+          <style>
+
+          .bgimg-1 {
+            background-image: url("https://i.imgur.com/o7pu9jz.png");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+
+          body {
+            font-family: 'Roboto', sans-serif;
+
+          }
+
+          </style>
+
+
   </head>
 
   <body>
 
+    <!-- Background Gradient -->
+    <div id="photo-margin1">
+    <div class="bgimg-1">
 
+    <!-- Jumbotron header with logo -->
     <header id="page-header" class="jumbotron jumbotron-fluid page-header">
+      <div id="logo" class="container">
+        <img src="img/traypeach.png" class="img-fluid" alt="">
 
-        <div id="logo" class="container">
-          <img src="img/traypeach.png" class="img-fluid" alt="">
-        </div>
+        <!-- HR bar -->
+        <hr class="hr-lightunderlogo">
 
-        <h1 id="title">In a Pinch!</h1>
+      </div>
+
+          <h1 id="pinchYatTitle">In a Pinch!</h1>
           <nav class="navbar navbar-expand-lg navbar-light">
             <button class="navbar-toggler"
                     type="button"
@@ -35,12 +69,12 @@
                     aria-controls="navigation"
                     aria-expanded="false"
                     aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navigation">
               <ul class="navbar-nav nav-fill w-100 mr-auto mt-2 mt-lg-0 mx-auto">
-                <li class="nav-item ">
+                <li class="nav-item">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -53,26 +87,25 @@
                   <a class="nav-link" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="reviews.html">Testimonials <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="reviews.html">Reviews <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
                 </li>
               </ul>
-          </div>
-        </nav>
-
+            </div>
+            </nav>
     </header>
 
     <div id="photo-margin">
       <div class="container-fluid">
 
-        <h2>Contact Us</h2>
+        <h2 class="teampurp">Contact Us</h2>
 
         <div class="row">
           <div class="col-12 col-md-6">
 
-            <h3>Send Request</h3>
+            <h3 class="default">Send Request</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
             <form method="post" action="contact.php" class="needs-validation" novalidate>
@@ -145,7 +178,7 @@
 
         <div class="col-12 col-md-6">
 
-          <h3>Call (518) 234-1234</h3>
+          <h3 class="default">Call (518) 234-1234</h3>
             <address>
               <strong>In A Pinch Inc.</strong>
                   <br>25 Broadway, Suite 100
@@ -169,12 +202,18 @@
       </div>
     </div>
 
-  <!-- FOOTER -->
-    <footer class="container">
-      <p class="float-right"><a href="#">Back to top</a></p>
-      <p>&copy; 2019 In a Pinch. All rights reserved.</p>
-    </footer>
 
+    <div class="container marketing">
+       <footer class="footer mt-auto py-3">
+         <hr class="featurette-divider">
+     <div class="container">
+     <span class="text-muted">
+       <p class="float-right"><a href="#"><img src="https://i.imgur.com/eXBFTDm.png" featurette-image class="rounded" float="inline" width="36" height="36"></a></p>
+         <p>&copy; 2019 <i><strong>In a Pinch!</i></strong> All rights reserved.</p>
+     </span>
+     </div>
+   </div>
+     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -193,6 +232,6 @@
     <script type="text/javascript"
             src="js/master.js">
     </script>
-    
+
   </body>
 </html>

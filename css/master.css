@@ -21,27 +21,21 @@ html, body {
   border: none;
 }
 
-/* .nav-link, a {
-	text-transform: none;
-	color: black;
-	transition: background-color .2s, color .2s;
+/* In a Pinch Title Styling */
 
-	&:hover {
-		background-color: rgba (0,0,0,.03);
-		color: rgba (255,255,255);
-	}
+#pinchYatTitle {
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
+  color: rgb(255, 250, 249);
+  text-shadow: 2.5px 2.5px rgb(74, 59, 78);
+  margin-bottom: .5em;
+  letter-spacing: 2px;
+  text-align: center;
 }
 
-.nav-link-active, a {
-	color: black;
-  text-decoration: none;
-} */
+/* Headers */
 
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
-h1 {
+h1.teampurp {
   font-family: 'Pacifico', cursive;
   font-size: 3em;
   color: rgb(74, 59, 78);
@@ -50,7 +44,7 @@ h1 {
   text-align: center;
 }
 
-h2 {
+h2.teampurp {
   font-family: 'Pacifico', cursive;
   font-size:2em;
   color: #2F243A;
@@ -58,7 +52,7 @@ h2 {
   text-align: center;
 }
 
-h3 {
+h3.teampurp {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   color: #2F243A;
@@ -66,7 +60,15 @@ h3 {
   text-align: left;
 }
 
-h4 {
+h3.default {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  color: #2F243A;
+  margin-bottom: .8em;
+  text-align: center;
+}
+
+h4.teampurp {
   font-family: 'Pacifico', cursive;
   font-size: 18px;
   color: #2F243A;
@@ -109,8 +111,8 @@ header {
   z-index: 9999;
   width: 100%;
   background-size: no-repeat;
-  background-position: 50% 80%;
-  font-family: 'Pacifico', cursive;
+  background-position: 50% 28%;
+  font-family: 'Pacifico', sans-serif;
   text-align: center;
   transition:all 0.4s ease-in-out;
   -webkit-transition:all 0.4s ease-in-out;
@@ -134,7 +136,7 @@ header h1 {
 
 nav.navbar.navbar-expand-lg {
   padding-top: 2em;
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
 }
 
@@ -147,24 +149,24 @@ nav.navbar.navbar-expand-lg {
   height: 200px;
   width: 200px;
 }
-
+/*
 .container-marketing {
   padding-top: 500px;
-}
+} */
 
-.center-pills {
+/* .center-pills {
   display: inline-block;
 }
 
 .center-pills {
     display: flex;
     justify-content: center;
-}
+} */
 
-.card-deck {
+/* .card-deck {
   padding-top: 500px;
   display:inline-block;
-}
+} */
 
 /* Container styling */
 .container-fluid {
@@ -183,12 +185,25 @@ nav.navbar.navbar-expand-lg {
 /* Button Styling*/
 .btn.btn-primary {
   background-color: #DB8A74;
+  font-family: 'Raleway', sans-serif;
   border: #DB8A74;
 }
 
 .btn.btn-primary:hover {
-  color: #2F243A;
-}
+  color: rgb(74, 59, 78);
+    font-family: 'Raleway', sans-serif;
+  }
+
+.btn.btn-secondary {
+    background-color: #DB8A74;
+    font-family: 'Raleway', sans-serif;
+    border: #DB8A74;
+  }
+
+.btn.btn-secondary:hover {
+    color: rgb(74, 59, 78);
+    font-family: 'Raleway', sans-serif;
+  }
 
 /* Outer Background Menu Styling*/
 .menu-container {
@@ -221,10 +236,6 @@ nav.navbar.navbar-expand-lg {
 .menu-container li {
   color: #A06555;
 }
-
-/*card styling*/
-
-.card
 
 /* Food and Cost Menu Styling*/
 .food-cost span {
@@ -274,6 +285,12 @@ nav.navbar.navbar-expand-lg {
   padding-top: 500px;
 }
 
+#photo-margin1{
+  max-width: 100%;
+  margin:auto;
+  padding-top: 0%;
+}
+
 .gallery-image{
   padding-top: 20px;
   margin-top: 20px;
@@ -289,19 +306,168 @@ nav.navbar.navbar-expand-lg {
 }
 
 
-
 .shrink {
-  background-color:#DB8A74;
+  background-color:#ffcabc;
   text-align: center;
   height:125px;
   padding:20px 0;
   font-size: 15px;
 }
 
+/* Homepage Styling */
 
-.circle-image{
-  height: 140px;
-  width: 140px;
-  border-radius: 50%;
+.marketing .col-md-4 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1.1px;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+.marketing h2 {
+  font-weight: 440;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+.marketing .col-md-4 p {
+  margin-right: .50rem;
+  margin-left: .50rem;
+}
 
+.circle-image {
+  height: 300px;
+  width: 300px;
+  position: center;
+  margin: 1.5rem;
+}
+
+.hoobastank {
+  font-weight: 200;
+  color: white;
+  font-weight: lighter;
+  letter-spacing: 1.10rem;
+  font-family: 'Raleway';
+  font-style: uppercase;
+  text-shadow: 2.5px 2.5px rgba(74, 59, 78, 0.75);
+  margin-bottom: 1.5rem;
+  margin-top:-0.20rem;
+}
+
+.custom {
+    width: 250px !important;
+    height:100%;
+    margin: .8rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cust {
+    background-color:#ffcabc;
+    font-family: 'Raleway', sans-serif;
+    width: 250px !important;
+    height:100%;
+    margin: .8rem;
+}
+
+.pinchdat {
+  position: center;
+  margin-bottom: 10px;
+}
+
+.featurette-divider {
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+.invisible {
+height:auto;
+  color: rgba(255, 255, 255);
+  width: 380px;
+}
+
+.hr-light {
+  border-top: 5px solid rgba(255, 202, 188, .25);
+  border-radius: 2.5px solid rgba(255, 202, 188, .25);
+  width: 560px;
+  align: center;
+  margin top: .25rem;
+  margin-bottom: .25rem;
+}
+
+.hr-lightdoubledare {
+  border-top: 5px solid rgba(255, 202, 188, .25);
+  border-radius: 2.5px solid rgba(255, 202, 188, .25);
+  width: 560px;
+  align: center;
+  margin top: .50rem;
+  margin-bottom: .5rem;
+}
+
+.hr-lightsmallest {
+  border-top: 5px solid rgba(255, 202, 188, .25);
+  border-radius: 2.5px solid rgba(255, 202, 188, .25);
+  width: 215px;
+  align: center;
+  margin top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.pinchslogan {
+font-family: 'Pacifico', cursive;
+font-size: 2.5em;
+color: rgb(255, 255, 255);
+text-shadow: 2.5px 2.5px rgb(74, 59, 78);
+/* rgb(118, 122, 122); */
+margin-bottom: .5em;
+letter-spacing: 2px;
+text-align: center;
+}
+
+.hr-lightcuzak {
+  border-top: 5px solid rgba(255, 202, 188, .25);
+  border-radius: 2.5px solid rgba(255, 202, 188, .25);
+  width: 235px;
+  align: center;
+  margin top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.hr-lightcuzat {
+  border-top: 5px solid rgba(255, 202, 188, .25);
+  border-radius: 2.5px solid rgba(255, 202, 188, .25);
+  width: 300px;
+  align: center;
+  margin top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.hr-lightunderlogo {
+  border-top: 4.5px solid rgba(253, 244, 241, .85);
+  border-radius: 2.25px;
+  width: 85px;
+  align: center;
+}
+
+/* FOOTER */
+.footer {
+  background-color: transparent!;
+  margin: .5rem;
+}
+
+/*Background Gradient*/
+.bgimg1 {
+  background-image: url("https://i.imgur.com/o7pu9jz.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Navbar */
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  font-weight: normal;
+}
+
+.navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item .nav-link:focus {
+  color: #ffe5de;
+  background-color:rgba(192,192,192,0.23);
+  font-weight: bolder;
 }

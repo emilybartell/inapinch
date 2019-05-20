@@ -5,7 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>In-A-Pinch: Our Menu</title>
+    <title>In a Pinch! | Our Menu</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto" rel="stylesheet">
 
     <!--bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -14,55 +22,77 @@
     <!--master.css-->
     <link rel="stylesheet" href="css/master.css">
 
+    <style>
+
+    .bgimg-1 {
+      background-image: url("https://i.imgur.com/o7pu9jz.png");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+
+    }
+
+    </style>
+
+
   </head>
 
   <body>
+
+    <!-- Background Gradient -->
+    <div id="photo-margin1">
+    <div class="bgimg-1">
+
+    <!-- Jumbotron header with logo -->
     <header id="page-header" class="jumbotron jumbotron-fluid page-header">
-
       <div id="logo" class="container">
+        <img src="img/traypeach.png" class="img-fluid" alt="">
 
-          <img src="img/traypeach.png"
-               class="img-fluid"
-               alt="">
+        <!-- HR bar -->
+        <hr class="hr-lightunderlogo">
+
       </div>
 
-      <h1 id="title">In a Pinch!</h1>
+          <h1 id="pinchYatTitle">In a Pinch!</h1>
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navigation"
+                    aria-controls="navigation"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
 
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <button class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navigation"
-                aria-controls="navigation"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navigation">
-            <ul class="navbar-nav nav-fill w-100 mr-auto mt-2 mt-lg-0 mx-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="menu.html">Menu <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="reviews.html">Reviews <span class="sr-only">(current)</span></a>
-              </li>
-            </ul>
-        </div>
-      </nav>
-
+            <div class="collapse navbar-collapse" id="navigation">
+              <ul class="navbar-nav nav-fill w-100 mr-auto mt-2 mt-lg-0 mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="menu.html">Menu <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="reviews.html">Testimonials <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+            </div>
+            </nav>
     </header>
 
     <div id="photo-margin">
@@ -71,7 +101,7 @@
 
         <div class="menu-inner-container">
 
-          <h1>Catering Menu</h1>
+          <h1 class="teampurp">Catering Menu</h1>
             <p>Our menu below is divided into three sections to help you choose the right food and amount for your event:
               <ul>
                 <li>Ready-Made Frozen</li>
@@ -85,7 +115,7 @@
 
 <hr>
 
-          <h2>Ready-Made Frozen</h2>
+          <h2 class="teampurp">Ready-Made Frozen</h2>
 
             <div class="food-cost">
               <span class="left"><strong>*Lasagna (Beef or Zucchini)</strong></span>
@@ -132,7 +162,7 @@
               <li>Egg-battered chicken pan seared in white wine lemon sauce</li>
             </ul>
 
-          <h2>Made-to-Order</h2>
+          <h2 class="teampurp">Made-to-Order</h2>
             <div class="food-cost">
               <span class="left"><strong>*Quiche</strong></span>
               <span class="right">Priced based on ingredients selected</span>
@@ -159,7 +189,7 @@
                 </ul>
           </ul>
 
-        <h2>Desserts</h2>
+        <h2 class="teampurp">Desserts</h2>
           <div class="food-cost">
             <span class="left"><strong>Rum Cake</strong></span>
             <span class="right">$29.99</span>
@@ -195,14 +225,14 @@
 
 <hr>
 
-        <h2>Keeping Food Warm</h2>
+        <h2 class="teampurp">Keeping Food Warm</h2>
           <p>Food can be provided hot or frozen.</p>
 
           <p>Place the half or full pans in oven at 300° for 30 minutes and your food will be ready to eat!</p>
 
           <p>To keep food warm throughout your event, using chafing dishes. We can provide all of the necessary items (chafing dishes and fuel) for an additional service charge.</p>
 
-          <h3>Chafer Basics</h3>
+          <h3 class="teampurp">Chafer Basics</h3>
             <ol>
               <li>Place water pan in frame</li>
               <li>Add one inch of hot water</li>
@@ -222,11 +252,17 @@
 
 </div>
 
-<!-- FOOTER -->
-  <footer class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2019 In a Pinch. All rights reserved.</p>
-  </footer>
+<div class="container marketing">
+   <footer class="footer mt-auto py-3">
+     <hr class="featurette-divider">
+ <div class="container">
+ <span class="text-muted">
+   <p class="float-right"><a href="#"><img src="https://i.imgur.com/eXBFTDm.png" featurette-image class="rounded" float="inline" width="36" height="36"></a></p>
+     <p>&copy; 2019 <i><strong>In a Pinch!</i></strong> All rights reserved.</p>
+ </span>
+ </div>
+</div>
+ </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
           integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

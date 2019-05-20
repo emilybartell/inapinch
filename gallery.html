@@ -6,7 +6,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-          <title>Gallery</title>
+          <title>In a Pinch! | Gallery</title>
 
     <link rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -19,56 +19,83 @@
     <link rel="stylesheet"
           href="css/master.css">
     <!-- <link rel="stylesheet" href="bootstrap-grid.min.css"> -->
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto" rel="stylesheet">
+
+    <!-- BACKGROUND GRADIENT -->
+    <style>
+
+          .bgimg-1 {
+            background-image: url("https://i.imgur.com/o7pu9jz.png");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+
+    </style>
+
   </head>
 
   <body>
 
+    <!-- Background Gradient -->
+    <div id="photo-margin1">
+    <div class="bgimg-1">
+
     <div id="page-wrap">
-      <header id="page-header" class="jumbotron jumbotron-fluid page-header">
 
-        <div id="logo" class="container">
-            <img src="img/traypeach.png"
-                 class="img-fluid"
-                 alt="">
-        </div>
+          <!-- Jumbotron header with logo -->
+          <header id="page-header" class="jumbotron jumbotron-fluid page-header">
+            <div id="logo" class="container">
+              <img src="img/traypeach.png" class="img-fluid" alt="">
 
+              <!-- HR bar -->
+              <hr class="hr-lightunderlogo">
 
-        <h1 id="title">In a Pinch!</h1>
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <button class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navigation"
-                    aria-controls="navigation"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-
-            <div class="collapse navbar-collapse" id="navigation">
-                <ul class="navbar-nav nav-fill w-100 mr-auto mt-2 mt-lg-0 mx-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="menu.html">Menu <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Reviews <span class="sr-only">(current)</span></a>
-                  </li>
-                </ul>
             </div>
-          </nav>
+
+                <h1 id="pinchYatTitle">In a Pinch!</h1>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                  <button class="navbar-toggler"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#navigation"
+                          aria-controls="navigation"
+                          aria-expanded="false"
+                          aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navigation">
+                    <ul class="navbar-nav nav-fill w-100 mr-auto mt-2 mt-lg-0 mx-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="reviews.html">Testimonials <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                  </nav>
 
   </header>
 
@@ -135,10 +162,18 @@
     </div>
 
 <!-- FOOTER -->
-    <footer class="container">
-      <p class="float-right"><a href="#">Back to top</a></p>
-      <p>&copy; 2019 In a Pinch. All rights reserved.</p>
-    </footer>
+     <div class="container marketing">
+        <footer class="footer mt-auto py-3">
+          <hr class="featurette-divider">
+      <div class="container">
+      <span class="text-muted">
+        <p class="float-right"><a href="#"><img src="https://i.imgur.com/eXBFTDm.png" featurette-image class="rounded" float="inline" width="36" height="36"></a></p>
+          <p>&copy; 2019 <i><strong>In a Pinch!</i></strong> All rights reserved.</p>
+      </span>
+      </div>
+    </div>
+      </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
