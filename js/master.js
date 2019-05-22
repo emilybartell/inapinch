@@ -6,6 +6,7 @@ $(document).ready( function() {
       $("#pinchYatTitle").hide();
       $("#logo").hide();
       $("header").removeClass("page-header");
+      $("#photo-margin").css("padding-top", "285px");
     }
 
     if( $(document).scrollTop() < 100){
@@ -13,6 +14,7 @@ $(document).ready( function() {
       $("#pinchYatTitle").show();
       $("#logo").show();
       $("header").addClass("page-header");
+      $("#photo-margin").css("padding-top", "500px");
     }
   }
 
