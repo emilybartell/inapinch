@@ -143,7 +143,7 @@
 
                   <div class="form-group col-12 col-md-6">
                     <label id="size-label "for="size">Event Size</label>
-                    <input id="size" type="number" name="size" class="form-control" required>
+                    <input id="size" type="number" name="numberInt" class="form-control" required>
                     <small for="size" class="form-text text-muted">Estimated number of people attending</small>
                       <div class="invalid-feedback">Event Size required</div>
                   </div>
@@ -152,7 +152,7 @@
                   <div class="form-group col-12">
                     <label id="desc-label" for="desc">Event Description</label>
                       <textarea id="desc"
-                                name="message"
+                                name="strongLong"
                                 rows="8"
                                 cols="80"
                                 class="form-control"
@@ -165,9 +165,10 @@
 
               </div>
 
+              <div id="alert-sucess" class="alert alert-success alert-dismissible fade show" role="alert">Your request has been sent successfully!</div>
 
+              <button id="submit" class="btn btn-primary" type="submit">Submit</button>
 
-              <button class="btn btn-primary" type="submit">Submit</button>
 
 
 

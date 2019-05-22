@@ -41,3 +41,11 @@ $(document).ready( function() {
     }, false);
   })();
 });
+
+//success alert for form
+$(document).ready( function() {
+    $("#submit").click(function(){
+      $(".alert").show("slow");
+    });
+    return false;
+  });

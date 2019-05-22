@@ -311,8 +311,8 @@ nav.navbar.navbar-expand-lg {
 .shrink {
   background-color:#ffcabc;
   text-align: center;
-  height:125px;
-  padding:20px 0;
+  height:100px;
+  padding:0px 0;
   font-size: 15px;
 }
 
@@ -472,4 +472,8 @@ text-align: center;
   color: #ffe5de;
   background-color:rgba(192,192,192,0.23);
   font-weight: bolder;
+}
+
+#alert-sucess {
+  display: none;
 }
