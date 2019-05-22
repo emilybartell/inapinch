@@ -105,7 +105,7 @@
             <h3 class="default">Let us cater your next event!</h3>
               <p>Fill out the form below with your event details and we will send you a proposed menu within 1 business day.</p>
 
-            <form method="post" action="javascript:void(0);" class="needs-validation" novalidate>
+            <form id="contact-form" method="post" action="javascript:void(0);" class="needs-validation" novalidate>
 
               <div class="form-row">
 
@@ -162,7 +162,12 @@
 
               </div>
 
-              <div id="alert-sucess" class="alert alert-success alert-dismissible fade show" role="alert">Your request has been sent successfully!</div>
+              <div id="alert-sucess" class="alert alert-success alert-dismissible fade show" role="alert">Your request has been sent successfully!
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+
+              </div>
 
               <button id="submit" class="btn btn-primary" type="submit">Submit</button>
 

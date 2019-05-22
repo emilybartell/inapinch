@@ -46,6 +46,11 @@ $(document).ready( function() {
 $(document).ready( function() {
     $("#submit").click(function(){
       $("#alert-sucess").show("slow");
+      $("#contact-form")[0].reset();
+      $("#contact-form").removeClass("was-validated")
+      $("#contact-form").addClass("needs-validation")
+
+
     });
     return false;
   });
