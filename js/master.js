@@ -45,7 +45,7 @@ $(document).ready( function() {
 //success alert for form
 $(document).ready( function() {
     $("#submit").click(function(){
-      $(".alert").show("slow");
+      $("#alert-sucess").show("slow");
     });
     return false;
   });
