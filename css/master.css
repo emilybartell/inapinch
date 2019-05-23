@@ -468,9 +468,9 @@ text-align: center;
 }
 
 .navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item .nav-link:focus {
-  color: #ffe5de;
-  background-color:rgba(192,192,192,0.23);
-  font-weight: bolder;
+  color: #2F2449;
+  /* background-color:rgba(192,192,192,0.23); */
+  font-weight: bold;
 }
 
 #alert-sucess {
