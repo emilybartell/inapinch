@@ -293,17 +293,25 @@ nav.navbar.navbar-expand-lg {
 }
 
 .gallery-image{
-  padding-top: 20px;
-  margin-top: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+
   float: left;
+  padding: 1%;
   border-radius: 20px;
+
+}
+
+.gallery-container-2 {
+  padding: auto%;
 }
 
 .carousel-inner > .item > img {
   width:100%;
   height:300px;
+  border-radius: 20px;
+}
+
+.carousel-inner {
+  border-radius: 20px;
 }
 
 
@@ -448,8 +456,8 @@ text-align: center;
 
 /* FOOTER */
 .footer {
-  background-color: transparent!;
-  margin: .5rem;
+  background-color: transparent;
+  margin: .5em;
 }
 
 /*Background Gradient*/
