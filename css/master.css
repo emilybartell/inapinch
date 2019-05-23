@@ -261,7 +261,6 @@ nav.navbar.navbar-expand-lg {
 
 /* Contact form styling */
 #contact-form {
-  padding: 2em .5em;
   width: 100%;
   max-width: 800px;
   margin: auto;
@@ -476,4 +475,8 @@ text-align: center;
 
 #alert-sucess {
   display: none;
+}
+
+#contact-container {
+  padding-bottom: 0px;
 }
